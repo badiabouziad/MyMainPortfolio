@@ -1,4 +1,10 @@
 import "./About.css";
+import { LiaHtml5 } from "react-icons/lia";
+import { BsFiletypeScss } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
+
 function About() {
   const magnify5 = () => {
     const cursor = document.getElementById("cursor");
@@ -26,37 +32,27 @@ function About() {
           <strong>React js , Node.js , SCSS , SQL , Python .</strong>
         </p>
         <div className="learned-tech">
-          <img
-            src="/IMG/html5-svgrepo-com.svg"
-            alt="Your GIF"
+          <LiaHtml5
             className="techs"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
-          <img
-            src="/IMG/scss-svgrepo-com.svg"
-            alt="Your GIF"
+          <BsFiletypeScss
             className="techs"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
-          <img
-            src="/IMG/react-svgrepo-com.svg"
-            alt="Your GIF"
+          <FaReact
             className="techs"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
-          <img
-            src="/IMG/node-fill-svgrepo-com.svg"
-            alt="Your GIF"
+          <FaNodeJs
             className="techs"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
-          <img
-            src="/IMG/sql-svgrepo-com.svg"
-            alt="Your GIF"
+          <TbSql
             className="techs"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}

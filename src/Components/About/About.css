@@ -39,7 +39,7 @@
   justify-content: space-between;
 }
 .about .learned-tech .techs {
-  width: 10%;
+  font-size: calc(1rem + 5vw);
 }
 
 /* responsovness for 1300px*/
