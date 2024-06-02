@@ -35,7 +35,7 @@ export default function App() {
         <SwiperSlide>
           <a
             className="NewWifu"
-            href="https://samicheurfi.github.io/Gericht/"
+            href="https://badiabouziad.github.io/Gericht/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ export default function App() {
         <SwiperSlide>
           <a
             className="NewWifu"
-            href="https://samicheurfi.github.io/Restaurant/"
+            href="https://badiabouziad.github.io/Restaurant/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ export default function App() {
         <SwiperSlide>
           <a
             className="NewWifu"
-            href="https://samicheurfi.github.io/Bank-Deploy/"
+            href="https://badiabouziad.github.io/Bank/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ export default function App() {
         <SwiperSlide>
           <a
             className="NewWifu"
-            href="https://samicheurfi.github.io/Foodie/"
+            href="https://badiabouziad.github.io/Foodie/"
             target="_blank"
             rel="noopener noreferrer"
           >
