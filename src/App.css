@@ -2,14 +2,14 @@
 
 /*scrol*/
 :root {
-  --primary-color: #e5e5e5; /* Replace with your desired color code */
-  --secondary-color: #000000;
+  --primary-color: #F3F4F6; /* Replace with your desired color code */
+  --secondary-color: #FBBF24;
   --third-color: #283618;
-  --fourth-color: #898989;
-  --links-color: #000000;
+  --fourth-color: #FBBF24;
+  --links-color: #1E3A8A;
 
-  --navbar-blured-color: #ffffff64;
-  --hero-text: #000000c3;
+  --navbar-blured-color: #f9741617;
+  --hero-text: #374151;
   --hero-span: #000000;
 
   /* Replace with another color code if needed */
