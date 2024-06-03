@@ -2,15 +2,16 @@
 
 /*scrol*/
 :root {
-  --primary-color: #f3f4f6; /* Replace with your desired color code */
-  --secondary-color: #fbbf24;
+  --primary-color: #fefae0; /* Replace with your desired color code */
+  --secondary-color: #ccd5ae;
   --third-color: #283618;
-  --fourth-color: #fbbf24;
-  --links-color: #1e3a8a;
+  --fourth-color: #e6c5a48e;
+  --links-color: #283618;
 
   --navbar-blured-color: #f9741617;
-  --hero-text: #374151;
-  --hero-span: #000000;
+  --hero-text: #bc6c25;
+  --hero-span: #283618;
+  --hro-span: #33333354;
 
   /* Replace with another color code if needed */
 }

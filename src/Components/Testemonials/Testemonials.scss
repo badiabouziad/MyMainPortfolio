@@ -1,0 +1,23 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+ .Testemonial{
+    width: 500px;
+    height: 300px;
+    background: var(--navbar-blured-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px var(--navbar-shadow-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12.2px);
+    
+  .img-name{
+    height: 100px;
+    display:flex;
+    width:300px;
+    img{
+        width: 60px;
+    }
+  }
+ }
+  }
+  

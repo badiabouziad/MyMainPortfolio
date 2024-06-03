@@ -12,7 +12,7 @@ function Hero() {
   return (
     <div className="main-text" id="hero">
       <div>
-        Hello there , I'm
+        Hello there , I'm&nbsp;
         <span onMouseOver={magnify5} onMouseOut={removeMagnify5}>
           Badia
         </span>

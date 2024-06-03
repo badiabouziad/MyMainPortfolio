@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import ProjectsSlider from "./Components/ProjectsSlider/ProjectsSlider";
 import About from "./Components/About/About";
+import Testemonials from "./Components/Testemonials/Testemonials";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       <Hero />
       <ProjectsSlider />
       <About />
+      <Testemonials/>
 
       <br></br>
       <br></br>
@@ -51,7 +53,7 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <h1>Hi farah</h1>
+    
     </>
   );
 }

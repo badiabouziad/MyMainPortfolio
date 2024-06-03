@@ -61,45 +61,28 @@ const Navbar = () => {
   const toggleDarkMode = () => {
     if (!darkMode) {
       // Dark mode
-      document.documentElement.style.setProperty("--primary-color", "#000");
-      document.documentElement.style.setProperty("--secondary-color", "#fff");
-      document.documentElement.style.setProperty("--third-color", "#fefae0");
-      document.documentElement.style.setProperty("--fourth-color", "#b5b5b5");
-      document.documentElement.style.setProperty("--links-color", "#fff");
-      document.documentElement.style.setProperty(
-        "--navbar-blured-color",
-        "#00000046"
-      );
-      document.documentElement.style.setProperty(
-        "--navbar-shadow-color",
-        "#ffffff64"
-      );
-      document.documentElement.style.setProperty("--hero-text", "#ffffffc8");
-      document.documentElement.style.setProperty("--hero-span", "#fff");
+      document.documentElement.style.setProperty("--primary-color", "#2b2b2b"); // Dark background color
+      document.documentElement.style.setProperty("--secondary-color", "#3e3e3e"); // Slightly lighter background color
+      document.documentElement.style.setProperty("--third-color", "#d1d5c3"); // Light color for text and elements
+      document.documentElement.style.setProperty("--fourth-color", "#8a795d"); // Accent color for elements
+      document.documentElement.style.setProperty("--links-color", "#e9edc9"); // Color for links
+      document.documentElement.style.setProperty("--navbar-blured-color", "#33333354"); // Blurred background color for navbar
+      document.documentElement.style.setProperty("--hero-text", "#ffe"); // Light text color
+      document.documentElement.style.setProperty("--hero-span", "#d1d5c3"); // Light span color
     } else {
       // Light mode
-      document.documentElement.style.setProperty("--primary-color", "#e5e5e5");
-      document.documentElement.style.setProperty(
-        "--secondary-color",
-        "#3f3a35"
-      );
+      document.documentElement.style.setProperty("--primary-color", "#fefae0");
+      document.documentElement.style.setProperty("--secondary-color", "#ccd5ae");
       document.documentElement.style.setProperty("--third-color", "#283618");
-      document.documentElement.style.setProperty("--fourth-color", "#898989");
-      document.documentElement.style.setProperty("--links-color", "#000000");
-      document.documentElement.style.setProperty(
-        "--navbar-blured-color",
-        "#ffffff64"
-      );
-      document.documentElement.style.setProperty(
-        "--navbar-shadow-color",
-        "#0000001a"
-      );
-      document.documentElement.style.setProperty("--hero-text", "#000000c3");
-      document.documentElement.style.setProperty("--hero-span", "#000");
+      document.documentElement.style.setProperty("--fourth-color", "#e6c5a48e");
+      document.documentElement.style.setProperty("--links-color", "#283618");
+      document.documentElement.style.setProperty("--navbar-blured-color", "#f9741617");
+      document.documentElement.style.setProperty("--hero-text", "#bc6c25");
+      document.documentElement.style.setProperty("--hero-span", "#283618");
     }
     setDarkMode(!darkMode);
   };
-
+  
   return (
     <>
       <div className="logo-mode">
