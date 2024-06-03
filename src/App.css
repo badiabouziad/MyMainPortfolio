@@ -2,19 +2,18 @@
 
 /*scrol*/
 :root {
-  --primary-color: #e5e5e5; /* Replace with your desired color code */
-  --secondary-color: #000000;
+  --primary-color: #f3f4f6; /* Replace with your desired color code */
+  --secondary-color: #fbbf24;
   --third-color: #283618;
-  --fourth-color: #898989;
-  --links-color: #000000;
+  --fourth-color: #fbbf24;
+  --links-color: #1e3a8a;
 
-  --navbar-blured-color: #ffffff64;
-  --hero-text: #000000c3;
+  --navbar-blured-color: #f9741617;
+  --hero-text: #374151;
   --hero-span: #000000;
 
   /* Replace with another color code if needed */
 }
-
 * {
   cursor: none;
   padding: 0;
