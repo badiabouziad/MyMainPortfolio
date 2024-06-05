@@ -25,50 +25,50 @@ export default function App() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper"
+        className="MySwiper"
       >
         <SwiperSlide className="Testemonial">
+          <div className="img-name">
+            <img src="./IMG/girl.webp"></img>
+            <h4>Sarah Johnson</h4>
+          </div>
           <div className="text">
             "Amazing service! The team delivered a stunning, user-friendly
             website that exceeded my expectations. Professional, efficient, and
             highly recommended. Thank you for your excellent work!"
-          </div>
-          <div classname="img-name">
-            <img src="./IMG/girl.webp"></img>
-            <h4>Sarah Johnson</h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="Testemonial">
+          <div className="img-name">
+            <img src="./IMG/girl.webp"></img>
+            <h4>Sarah Johnson</h4>
+          </div>
           <div className="text">
             "Amazing service! The team delivered a stunning, user-friendly
             website that exceeded my expectations. Professional, efficient, and
             highly recommended. Thank you for your excellent work!"
-          </div>
-          <div classname="img-name">
-            <img src="./IMG/girl.webp"></img>
-            <h4>Sarah Johnson</h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="Testemonial">
+          <div className="img-name">
+            <img src="./IMG/girl.webp"></img>
+            <h4>Sarah Johnson</h4>
+          </div>
           <div className="text">
             "Amazing service! The team delivered a stunning, user-friendly
             website that exceeded my expectations. Professional, efficient, and
             highly recommended. Thank you for your excellent work!"
-          </div>
-          <div classname="img-name">
-            <img src="./IMG/girl.webp"></img>
-            <h4>Sarah Johnson</h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="Testemonial">
+            <div className="img-name">
+              <img src="./IMG/girl.webp"></img>
+              <h4>Sarah Johnson</h4>
+            </div>
           <div className="text">
             "Amazing service! The team delivered a stunning, user-friendly
             website that exceeded my expectations. Professional, efficient, and
             highly recommended. Thank you for your excellent work!"
-          </div>
-          <div classname="img-name">
-            <img src="./IMG/girl.webp"></img>
-            <h4>Sarah Johnson</h4>
           </div>
         </SwiperSlide>
       </Swiper>

@@ -1,23 +1,39 @@
-.swiper {
+.MySwiper {
+  padding: 5vh 0;
+  height: 25vw;
+  width: 100%;
+  .Testemonial {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    gap: 1vw;
     height: 100%;
- .Testemonial{
-    width: 500px;
-    height: 300px;
     background: var(--navbar-blured-color);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px var(--navbar-shadow-color);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12.2px);
-    
-  .img-name{
-    height: 100px;
-    display:flex;
-    width:300px;
-    img{
-        width: 60px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px var(--navbar-shadow-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12.2px);
+    .img-name {
+      display: flex;
+      gap: 3%;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      padding: 1vw;
+      width: 30vw;
+      img {
+        border-radius: 50%;
+        width: 4vw;
+        height: 4vw;
+        object-fit: cover;
+      }
+      h4 {
+        font-size: calc(0.5rem + 1vw);
+      }
+    }
+    .text {
+      padding: 0 1%;
+      font-size: calc(0.2rem + 1vw);
     }
   }
- }
-  }
-  
+}

@@ -1,21 +1,40 @@
-.swiper {
+.MySwiper {
+  padding: 5vh 0;
+  height: 25vw;
   width: 100%;
-  height: 100%;
 }
-.swiper .Testemonial {
-  width: 500px;
-  height: 300px;
+.MySwiper .Testemonial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1vw;
+  height: 100%;
   background: var(--navbar-blured-color);
   border-radius: 16px;
   box-shadow: 0 4px 30px var(--navbar-shadow-color);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12.2px);
 }
-.swiper .Testemonial .img-name {
-  height: 100px;
+.MySwiper .Testemonial .img-name {
   display: flex;
-  width: 300px;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 1vw;
+  width: 30vw;
 }
-.swiper .Testemonial .img-name img {
-  width: 60px;
+.MySwiper .Testemonial .img-name img {
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.MySwiper .Testemonial .img-name h4 {
+  font-size: calc(0.5rem + 1vw);
+}
+.MySwiper .Testemonial .text {
+  padding: 0 1%;
+  font-size: calc(0.2rem + 1vw);
 }/*# sourceMappingURL=Testemonials.css.map */
