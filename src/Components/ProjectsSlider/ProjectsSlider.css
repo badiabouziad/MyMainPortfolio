@@ -2,6 +2,13 @@ body {
   background: transparent;
 }
 
+#projects {
+  text-align: center;
+  font-size: 56px;
+  margin-top: 5%;
+  color: var(--links-color);
+}
+
 .swiper {
   width: 100%;
 }
@@ -31,7 +38,6 @@ body {
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
-  box-shadow: 0px 0px 95px 0px rgba(0, 0, 0, 0.43);
   transition: 0.2s ease-in-out;
 }
 .swiper .swiper-slide .NewWifu img:hover {
@@ -44,58 +50,114 @@ body {
   .swiper .swiper-slide img {
     border-radius: 72px;
     width: 880px;
-    height: 480px;
+    height: 440px;
   }
 }
 /* responsovness for 1100px*/
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .swiper .swiper-slide .NewWifu img {
-    border-radius: 72px;
-    width: 770px;
-    height: 470px;
+    border-radius: 56px;
+    width: 935px;
+    height: 510px;
   }
 }
 /* responsovness for 1000px*/
 @media (max-width: 1000px) {
+  #projects {
+    font-size: 48px;
+  }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 56px;
-    width: 660px;
-    height: 460px;
+    width: 795px;
+    height: 434px;
   }
 }
 /* responsovness for 800px*/
-@media (max-width: 800px) {
+@media (max-width: 870px) {
+  #projects {
+    font-size: 40px;
+  }
+  .swiper .swiper-slide {
+    height: 700px;
+  }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 48px;
-    width: 550px;
-    height: 450px;
+    width: 710px;
+    height: 388px;
   }
 }
 /* responsovness for 720px*/
-@media (max-width: 720px) {
+@media (max-width: 770px) {
+  #projects {
+    font-size: 44px;
+  }
+  .swiper .swiper-slide {
+    height: 600px;
+  }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 40px;
-    width: 440px;
-    height: 440px;
+    width: 690px;
+    height: 375px;
   }
 }
 /* responsovness for 570px*/
-@media (max-width: 570px) {
-  .swiper .swiper-slide .NewWifu {
+@media (max-width: 740px) {
+  #projects {
+    font-size: 32px;
+  }
+  .swiper .swiper-slide {
     height: 400px;
+  }
+  .swiper .swiper-slide .NewWifu {
+    height: 200px;
     margin-bottom: 40px;
   }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 32px;
-    width: 330px;
-    height: 430px;
+    width: 580px;
+    height: 320px;
   }
 }
 /* responsovness for 370px*/
-@media (max-width: 370px) {
+@media (max-width: 620px) {
+  #projects {
+    font-size: 40px;
+  }
   .swiper .swiper-slide .NewWifu img {
-    border-radius: 24px;
-    width: 220px;
-    height: 420px;
+    border-radius: 32px;
+    width: 500px;
+    height: 273px;
+  }
+}
+@media (max-width: 510px) {
+  #projects {
+    font-size: 36px;
+  }
+  .swiper .swiper-slide .NewWifu img {
+    border-radius: 32px;
+    width: 440px;
+    height: 240px;
+  }
+}
+/* responsovness for 370px*/
+@media (max-width: 460px) {
+  #projects {
+    font-size: 36px;
+  }
+  .swiper .swiper-slide .NewWifu img {
+    border-radius: 16px;
+    width: 400px;
+    height: 218.18px;
+  }
+}
+/* responsovness for 370px*/
+@media (max-width: 440px) {
+  #projects {
+    font-size: 32px;
+  }
+  .swiper .swiper-slide .NewWifu img {
+    border-radius: 16px;
+    width: 340px;
+    height: 196px;
   }
 }/*# sourceMappingURL=ProjectsSlider.css.map */

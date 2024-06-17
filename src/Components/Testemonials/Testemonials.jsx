@@ -9,23 +9,46 @@ import "swiper/css/autoplay";
 import "./Testemonials.css";
 
 // import required modules
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay ,EffectCoverflow} from "swiper/modules";
 
 export default function App() {
   return (
     <>
+    <h1
+    id="testemonials" > Reviews </h1>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={false}
-        navigation={false}
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"2"}
         loop={true}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 1000,
+          modifier: 1,
+          slideShadows: false,
+          initialSlide: 1,
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Pagination]}
+        pagination={false}
+        modules={[Autoplay ,EffectCoverflow, Pagination]}
         className="MySwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1.1,
+          },
+          430: {
+            slidesPerView: 1.05,
+          },
+          850: {
+            slidesPerView: 2,
+          },
+        }}
+        
       >
         <SwiperSlide className="Testemonial">
           <div className="img-name">

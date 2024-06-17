@@ -9,11 +9,12 @@ import "swiper/css/pagination";
 import "./ProjectsSlider.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination , Autoplay } from "swiper/modules";
 
 export default function App() {
   return (
     <>
+      <h1 id="projects">My projects</h1>
       <Swiper
         id="ProjectsSlider"
         effect={"coverflow"}
@@ -28,8 +29,14 @@ export default function App() {
           slideShadows: false,
           initialSlide: 1,
         }}
+        loop={true}
+
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
         pagination={false}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay ,EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

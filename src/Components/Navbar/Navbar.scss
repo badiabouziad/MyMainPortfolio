@@ -34,7 +34,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 65px;
-  width: 500px;
+  width: 600px;
   border-radius: 90px;
   transition: 0.2s ease-in-out;
   z-index: 100;
@@ -76,7 +76,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 65px;
-  width: 500px;
+  width: 620px;
   border-radius: 90px;
 }
 
@@ -118,10 +118,7 @@
     }
   }
 }
-
-/* responsivness for 500px */
-
-@media (max-width: 500px) {
+@media (max-width: 630px) {
   .logo-mode {
     margin-left: 16px;
     margin-right: 16px;
@@ -151,7 +148,7 @@
     position: fixed;
     bottom: 20px;
     height: 45px;
-    width: 380px;
+    width: 490px;
     border-radius: 90px;
     transition: 0.2s ease-in-out;
     z-index: 100;
@@ -185,9 +182,76 @@
   }
 }
 
+
+/* responsivness for 500px */
+
+@media (max-width: 500px) {
+  .logo-mode {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 4px;
+    transition: 0.2s ease-in-out;
+    .logo {
+      cursor: default;
+
+      font-size: 32px;
+      font-weight: 800;
+    }
+
+    .night-btn {
+      display: block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .light-btn {
+      font-size: 16px;
+      display: none;
+      cursor: pointer;
+    }
+  }
+
+  .navbar {
+    position: fixed;
+    bottom: 20px;
+    height: 45px;
+    width: 460px;
+    border-radius: 90px;
+    transition: 0.2s ease-in-out;
+    z-index: 100;
+    ul {
+      gap: 16px;
+      font-size: 14px;
+      font-weight: 500;
+      .nav-link {
+        padding-right: 14px;
+        cursor: pointer;
+
+        padding-left: 14px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+      .active {
+        background-color: var(--links-color);
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  .navbar-on-scroll {
+    /* From https://css.glass */
+    background: var(--navbar-blured-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px var(--navbar-shadow-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12.2px);
+    border-radius: 900px;
+  }
+}
+
 /* responsivness for 375px */
 
-@media (max-width: 375px) {
+@media (max-width: 475px) {
   .logo-mode {
     margin-left: 10px;
     margin-right: 10px;
@@ -210,11 +274,53 @@
   }
 
   .navbar {
-    width: 300px;
+    width: 380px;
     border-radius: 9000px;
     ul {
       gap: 4px;
       font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
+  .navbar-on-scroll {
+    /* From https://css.glass */
+    background: var(--navbar-blured-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px var(--navbar-shadow-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12.2px);
+    border-radius: 9000px;
+  }
+}
+@media (max-width: 390px) {
+  .logo-mode {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    transition: 0.2s ease-in-out;
+    .logo {
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    .night-btn {
+      display: block;
+      font-size: 16px;
+    }
+
+    .light-btn {
+      font-size: 16px;
+      display: none;
+    }
+  }
+
+  .navbar {
+    width: 340px;
+    border-radius: 9000px;
+    ul {
+      gap: 3px;
+      font-size: 10px;
       font-weight: 500;
     }
   }

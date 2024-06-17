@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/Hero";
 import ProjectsSlider from "./Components/ProjectsSlider/ProjectsSlider";
 import About from "./Components/About/About";
 import Testemonials from "./Components/Testemonials/Testemonials";
+import Contact from "./Components/Contact/Contact";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
       <ProjectsSlider />
       <About />
       <Testemonials/>
+      
 
       <br></br>
       <br></br>
@@ -33,26 +35,7 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+    
     
     </>
   );

@@ -198,7 +198,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="ProjectsSlider"
+            to="projects"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -218,7 +218,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-75}
+            offset={-200}
             duration={500}
             onClick={() => changeColor(1)}
             onMouseOver={magnify3}
@@ -228,11 +228,25 @@ const Navbar = () => {
             About
           </Link>
           <Link
+            to="testemonials"
             activeClass="active"
-            to=""
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-150}
+            duration={500}
+            onClick={() => changeColor(1)}
+            onMouseOver={magnify3}
+            onMouseOut={removeMagnify3}
+            className="nav-link"
+          >
+            Reviews
+          </Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={350}
             duration={500}
             onClick={() => changeColor(3)}
             onMouseOver={magnify3}

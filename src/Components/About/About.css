@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: center;
   background: var(--navbar-blured-color);
-  border-radius: 16px;
   box-shadow: 0 4px 30px var(--navbar-shadow-color);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12.2px);
@@ -14,18 +13,20 @@
 }
 .about .container {
   padding: 2%;
-  width: 1500px;
+  width: 80%;
+  height: 100%;
 }
 .about .container h1 {
   font-size: 64px;
   margin-bottom: 2%;
-  margin-top: 4%;
 }
 .about .container p {
   font-size: 32px;
+  text-align: center;
   line-height: 88px;
 }
 .about .learned-tech {
+  width: 90%;
   margin-bottom: 4%;
   margin-top: 2%;
   padding: 16px;
@@ -95,11 +96,44 @@
 /* responsovness for 520px*/
 @media (max-width: 520px) {
   .about .container h1 {
-    font-size: 18px;
+    font-size: 28px;
   }
   .about .container p {
-    font-size: 12px;
-    line-height: 36px;
+    width: 95%;
+    font-size: 18px;
+    line-height: 52px;
+  }
+  .about .learned-tech {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+  }
+  .about .learned-tech .child-1 {
+    grid-area: 1/1/2/2;
+  }
+  .about .learned-tech .child-2 {
+    grid-area: 1/3/2/4;
+  }
+  .about .learned-tech .child-3 {
+    grid-area: 1/5/2/6;
+  }
+  .about .learned-tech .child-4 {
+    grid-area: 2/2/3/3;
+  }
+  .about .learned-tech .child-5 {
+    grid-area: 2/4/3/5;
+  }
+  .about .learned-tech .techs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
   }
 }
 /* responsovness for 410px*/

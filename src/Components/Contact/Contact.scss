@@ -1,0 +1,88 @@
+#contact {
+  color: var(--links-color);
+  font-size: 64px;
+}
+.email {
+  color: var(--links-color);
+  text-decoration: none;
+  font-size: 48px;
+  font-weight: 600;
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.container {
+  height: 900px;
+  margin-top: 10%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .character {
+    width: 800px;
+    bottom: 0px;
+
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+    #contact {
+        font-size: 56px;
+      }
+      .email {
+        font-size: 40px;
+      }
+      .container {
+        height: 700px;
+        margin-top: 10%;
+        .character {
+          width: 600px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+@media (max-width: 800px) {
+    #contact {
+        font-size: 48px;
+      }
+      .email {
+        font-size: 32px;
+      }
+      .container {
+        height: 700px;
+        margin-top: 10%;
+        .character {
+          width: 600px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+@media (max-width: 700px) {
+    #contact {
+        font-size: 40px;
+      }
+      .email {
+        font-size: 28px;
+      }
+      .container {
+        height: 700px;
+        margin-top: 10%;
+        .character {
+          width: 600px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+  

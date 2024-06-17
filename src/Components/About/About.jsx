@@ -16,9 +16,9 @@ function About() {
     cursor.classList.remove("magnify-5");
   };
   return (
-    <div id="about" className="about">
+    <div  className="about">
       <div className="container">
-        <h1>About Me</h1>
+        <h1 id="about">About Me</h1>
         <p>
           Hi there! <strong>I'm Badia Bouziad</strong>, a passionate web
           developer with a knack for crafting all sorts of websites. At 22 years
@@ -29,31 +29,31 @@ function About() {
           into the world of coding began with <strong>HTML</strong> and{" "}
           <strong>CSS</strong>, and since then, I've expanded my expertise to
           include a variety of technologies. Such as{" "}
-          <strong>React js , Node.js , SCSS , SQL , Python .</strong>
+          <strong>React js , Node.js , SCSS , SQL , Python.</strong>
         </p>
         <div className="learned-tech">
           <LiaHtml5
-            className="techs"
+            className="techs child-1"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
           <BsFiletypeScss
-            className="techs"
+            className="techs child-2"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
           <FaReact
-            className="techs"
+            className="techs child-3"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
           <FaNodeJs
-            className="techs"
+            className="techs child-4"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
           <TbSql
-            className="techs"
+            className="techs child-5"
             onMouseOver={magnify5}
             onMouseOut={removeMagnify5}
           />
