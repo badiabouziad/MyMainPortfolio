@@ -25,7 +25,7 @@ function App() {
       <ProjectsSlider />
       <About />
       <Testemonials/>
-      
+      <Contact/>
 
       <br></br>
       <br></br>

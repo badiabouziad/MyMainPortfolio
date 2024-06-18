@@ -4,7 +4,7 @@ body {
 #projects{
   text-align: center;
   font-size: 56px;
-  margin-top: 5%;
+  margin-top: 15%;
   color: var(--links-color);
 }
 .swiper {
@@ -200,6 +200,7 @@ body {
   }
   .swiper {
     .swiper-slide {
+      height: 300px;
       .NewWifu {
        
         img {
@@ -214,11 +215,11 @@ body {
 /* responsovness for 370px*/
 @media (max-width: 440px) {
   #projects{
-    font-size: 32px;
-   
+    font-size: 28px;
   }
   .swiper {
     .swiper-slide {
+
       .NewWifu {
        
         img {

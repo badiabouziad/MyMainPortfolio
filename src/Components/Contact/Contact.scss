@@ -86,3 +86,60 @@
       }
   } 
   
+@media (max-width: 580px) {
+    #contact {
+        font-size: 32px;
+      }
+      .email {
+        font-size: 24px;
+      }
+      .container {
+        height: 700px;
+        margin-top: 10%;
+        .character {
+          width: 500px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+  
+@media (max-width: 500px) {
+    #contact {
+        font-size: 28px;
+      }
+      .email {
+        font-size: 20px;
+      }
+      .container {
+        height: 700px;
+        margin-top: 10%;
+        .character {
+          width: 450px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+  
+@media (max-width: 430px) {
+    #contact {
+        font-size: 20px;
+      }
+      .email {
+        font-size: 16px;
+      }
+      .container {
+        height: 550px;
+        margin-top: 10%;
+        .character {
+          width: 380px;
+          bottom: 0px;
+      
+          bottom: 0px;
+        }
+      }
+  } 
+  

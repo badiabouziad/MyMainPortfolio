@@ -246,7 +246,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={350}
+            offset={-150}
             duration={500}
             onClick={() => changeColor(3)}
             onMouseOver={magnify3}

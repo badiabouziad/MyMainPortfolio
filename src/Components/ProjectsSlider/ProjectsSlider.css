@@ -5,7 +5,7 @@ body {
 #projects {
   text-align: center;
   font-size: 56px;
-  margin-top: 5%;
+  margin-top: 15%;
   color: var(--links-color);
 }
 
@@ -144,6 +144,9 @@ body {
   #projects {
     font-size: 36px;
   }
+  .swiper .swiper-slide {
+    height: 300px;
+  }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 16px;
     width: 400px;
@@ -153,7 +156,7 @@ body {
 /* responsovness for 370px*/
 @media (max-width: 440px) {
   #projects {
-    font-size: 32px;
+    font-size: 28px;
   }
   .swiper .swiper-slide .NewWifu img {
     border-radius: 16px;
